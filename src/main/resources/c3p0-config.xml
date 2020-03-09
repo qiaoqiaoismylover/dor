@@ -3,7 +3,7 @@
 	<!-- 这是默认配置信息 -->
 	<default-config>
 		<!-- 连接四大参数配置 -->
-		<property name="jdbcUrl">jdbc:mysql://localhost:3307/dbdormitory?useUnicode=true&amp;characterEncoding=UTF-8
+		<property name="jdbcUrl">jdbc:mysql://localhost:3306/dbdormitory?useUnicode=true&amp;characterEncoding=UTF-8
 		</property>
 		<property name="driverClass">com.mysql.jdbc.Driver</property>
 		<property name="user">dbdormitory</property>
@@ -27,7 +27,7 @@
 
 <named-config name="c3p01">
 		<!-- 连接四大参数配置 -->
-		<property name="jdbcUrl">jdbc:mysql://localhost:3307/my_sql</property>
+		<property name="jdbcUrl">jdbc:mysql://localhost:3306/my_sql</property>
 		<property name="driverClass">com.mysql.jdbc.Driver</property>
 		<property name="user">my_sql</property>
 		<property name="password">123456</property>
